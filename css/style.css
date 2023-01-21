@@ -1,0 +1,258 @@
+/* Author  : Anjali Soman
+Date    : 09-1-2023 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+}
+
+body {
+    background-color: #edf2f6cb;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    margin: 8px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.notalink {
+    color: #4a4a4d;
+    display: inline;
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #5984da;
+    font-size: smaller;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+    position: relative;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.inc1 {
+    align-self: flex-start;
+}
+
+.gradient {
+    display: flex;
+    justify-content: flex-start;
+    /* gap: 20px; */
+    /* padding: 10px; */
+    margin-top: 35px;
+}
+
+.gradient div {
+    padding: 5px;
+}
+
+.grad-effect {
+    border-left: solid 1px #9db1da;
+    border-right: solid 1px #9db1da;
+    border-bottom: solid 1px #9db1da;
+    background-image: linear-gradient(#f9fbfd, #d6dfe1);
+}
+
+.gradient a {
+    text-decoration: none;
+    color: #4549bf;
+}
+
+.empty {
+    width: 58%;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 20px; */
+    width: 800px;
+    padding: 25px;
+    background-color: #e4e8ebcb;
+    border-bottom: solid 1px #9db1da;
+}
+
+.firstdiv img {
+    width: 100%;
+}
+
+.navigation {
+    margin-left: 2px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #5984da;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation p {
+    color: #514f4f;
+    padding: 5px 0;
+}
+
+.div2 {
+    padding-top: 5px;
+    border-left: solid 1px #a4cbe7;
+}
+
+.div2 h1 {
+    /* text-align: center; */
+    margin-top: 20px;
+    /* margin: 20px 0 10px 0; */
+}
+
+.bitalic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bitalic a {
+    text-decoration: none;
+    color: #5984da;
+}
+
+.bitalic a:hover {
+    text-decoration: underline;
+}
+
+.heading {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.featured-picture {
+    /* visibility: hidden; */
+    padding: 5px;
+    border-left: solid 1px #a4cbe7;
+    border-top: solid 1px #a4cbe7;
+    border-bottom: solid 1px #a4cbe7;
+    background-color: #d0e5f5;
+    text-align: center;
+    width: 300px;
+    /* margin-top: 10px; */
+    overflow: auto;
+}
+
+.fh4 {
+    color: #5984da;
+}
+
+.featured-picture img {
+    margin: 5px;
+    width: 200px;
+}
+
+.featured-article {
+    padding: 5px;
+    border-left: solid 1px #a4cbe7;
+    border-top: solid 1px #a4cbe7;
+    border-bottom: solid 1px #a4cbe7;
+    background-color: #d0e5f5;
+    text-align: center;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.featured-article img {
+    margin: 5px;
+    max-width: 90%;
+}
+
+.contents {
+    border: solid 1px #a4cbe7;
+    background-color: #e0e7ec;
+    padding: 10px;
+    width: 30%;
+    /* margin-left: 10px; */
+}
+
+.contents h4 {
+    text-align: center;
+}
+
+.margin-l {
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.lightblack {
+    color: #514f4f;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.particle a {
+    color: #3d6ccc;
+    text-decoration: none;
+}
+
+.particle a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: solid 1px #9db1da;
+    border-bottom: solid 1px #9db1da;
+    background-color: #e4e8ebcb;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding: 10px 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #3d6ccc;
+    padding: 15px;
+    font-size: smaller;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-img {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.footer-img img {
+    width: 80px;
+}
+
+.flink {
+    text-decoration: none;
+    color: #3d6ccc;
+}

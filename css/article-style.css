@@ -1,0 +1,243 @@
+/* Author  : Anjali Soman
+Date    : 11-01-2023 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+}
+
+body {
+    background-color: #f0f3f5cb;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 15px; */
+    position: relative;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    margin-left: 2px;
+    background-color: #ecedf6;
+    border-bottom: solid 1px #9db1da;
+    width: 200px;
+}
+
+.main-navigation img {
+    width: 100%;
+}
+
+.main-content {
+    border-left: solid 1px #a4cbe7;
+}
+
+.links {
+    margin: 8px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #5984da;
+    font-size: smaller;
+}
+
+.notalink {
+    color: #4a4a4d;
+    display: inline;
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5984da;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.gradient {
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+    padding: 15px 0;
+    margin-top: 35px;
+}
+
+.gradient div {
+    padding: 5px;
+}
+
+.grad-effect {
+    border-left: solid 1px #9db1da;
+    border-right: solid 1px #9db1da;
+    border-bottom: solid 1px #9db1da;
+    background-image: linear-gradient(#f9fbfd, #d6dfe1);
+}
+
+.gradient a {
+    text-decoration: none;
+    color: #4549bf;
+}
+
+.empty {
+    width: 58%;
+}
+
+.heading {
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px #bbbceb;
+    background-color: #ecedf6;
+    margin-left: 15px;
+}
+
+.heading h1 {
+    font-size: 25px;
+}
+
+.article-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.art1-1 {
+    padding: 10px;
+    border: solid 2px #97ddba;
+    background-color: #c4f4db;
+    font-size: 15px;
+    width: 630px;
+}
+
+.art1-1 h3 {
+    border: solid 2px #58b58d;
+    border-radius: 10px;
+    background-color: #74e9b0;
+    padding: 5px;
+}
+
+.art1-1 p {
+    padding: 5px;
+}
+
+.art1-1 .img1 {
+    margin-top: 10px;
+    float: left;
+}
+
+.art1-1 .img2 {
+    margin-top: 10px;
+    float: right;
+    height: 150px;
+}
+
+.art1-2 {
+    padding: 10px;
+    border: solid 2px #a8bfd0;
+    background-color: #d8e5ee;
+    font-size: 15px;
+    width: 630px;
+}
+
+.art1-2 p {
+    padding: 5px;
+}
+
+.art1-2 h3 {
+    border: solid 2px #629d9d;
+    border-radius: 10px;
+    background-color: #a8d9e9;
+    padding: 5px;
+}
+
+.art1-2 .img1 {
+    margin-top: 10px;
+    float: right;
+    height: 130px;
+}
+
+.art1-2 .img2 {
+    margin-top: 10px;
+    float: right;
+}
+
+.bluelink {
+    color: #4549bf;
+    text-decoration: none;
+}
+
+.bluelink:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: smaller;
+    color: #514f4f;
+    margin: 3px 0;
+}
+
+.margin-l {
+    margin-left: 15px;
+}
+
+ul {
+    padding: 15px;
+}
+
+footer {
+    border-top: solid 1px #9db1da;
+    border-bottom: solid 1px #9db1da;
+    background-color: #e4e8ebcb;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding: 10px 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #3d6ccc;
+    padding: 15px;
+    font-size: smaller;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-img {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.footer-img img {
+    width: 80px;
+}
+
+.flink {
+    text-decoration: none;
+    color: #3d6ccc;
+}
